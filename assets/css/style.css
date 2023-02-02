@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,,800;1,600&family=Poppins:ital,wght@1,500&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,300&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* curaousel */
+.carousel-inner img{
+  height: 90vh;
+  background-position: top 90% center;
+}
+.carousel-caption{
+  font-size: 2rem;
+}
+
+
+.content{
+            position: relative;
+            height: 50vh;
+            width: 100%;
+        }
+        .overlay{
+            position: absolute; 
+            /* background-color: black; */
+            opacity: 0.5;
+            height: 100%;
+            width: 100%;
+            top: 0; 
+        }   
+        video{
+            height: 100%;
+            width: 100%;
+        }
+
+        .gt{
+          background: url(/assets/img/coff2.jpeg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          height: 80vh;
+        }
+
+/* .kola img{
+  margin-left: 2rem;
+} */
+.jp{
+  height: 30%;
+}
+
+.kola .container{
+  width: 100%;
+}
+
+.kola .jp:hover{
+  transform: scale(1.02);
+}
+.rou h1{
+  padding: 1rem;
+  color: blue;
+
+}
+.rou p{
+  /* font-size: 1rem; */
+  padding: 1rem;
+}
+.way .card:hover{
+  transform: scale(1.02);
+}
+.way .card{
+  height: 100%;
+}
+.pro{
+  width: 50%;
+}
+.user .card{
+  height: 100%;
+}
+.rowkp ul li{
+  list-style: none;
+  display: inline;
+}
+ul li:hover{
+  color: blue;
+}
+.ter{
+   background: rgb(0, 0, 82);
+   text-align: white;
+ }
+
+@media (max-width:520px){
+   .carousel-inner img{
+  height: 40vh;
+  background-position: top 90% center;
+}
+   .gt{
+     height: 40vh;
+   }
+   .peek{
+     margin-bottom: 20px;
+   }
+   .ter{
+     display: block;
+   }
+   .pell{
+     margin-bottom: 20px;
+   }
+   .kola .jp{
+     margin-bottom: 2rem;
+   }
+   .way .card, .hgl{
+     margin-bottom: 20px;
+   }
+   .user .card, .hgl{
+     margin-bottom: 20px;
+   }
+}
+
+      
