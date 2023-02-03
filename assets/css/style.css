@@ -91,27 +91,31 @@ ul li:hover{
   height: 40vh;
   background-position: top 90% center;
 }
-   .gt{
-     height: 40vh;
-   }
-   .peek{
-     margin-bottom: 20px;
-   }
-   .ter{
-     display: block;
-   }
-   .pell{
-     margin-bottom: 20px;
-   }
-   .kola .jp{
-     margin-bottom: 2rem;
-   }
-   .way .card, .hgl{
-     margin-bottom: 20px;
-   }
-   .user .card, .hgl{
-     margin-bottom: 20px;
-   }
+.peek img{
+  height: 180px;
+  object-fit: cover;
+}
+  .gt{
+    height: 40vh;
+  }
+  .peek{
+    margin-bottom: 20px;
+  }
+  .ter{
+    display: block;
+  }
+  .pell{
+    margin-bottom: 20px;
+  }
+  .kola .jp{
+    margin-bottom: 2rem;
+  }
+  .way .card, .hgl{
+    margin-bottom: 20px;
+  }
+  .user .card, .hgl{
+    margin-bottom: 20px;
+  }
 }
 
       
